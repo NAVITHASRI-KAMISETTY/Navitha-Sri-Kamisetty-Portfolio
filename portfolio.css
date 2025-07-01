@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navbar */
+header {
+    background: #222;
+    padding: 15px 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: #f4b400;
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('background.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: Blue;
+}
+
+.home-content h1 {
+    font-size: 42px;
+}
+
+.home-content p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #f4b400;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #e09c00;
+}
+
+/* Sections */
+section {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Projects */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* Certifications */
+.certifications ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+.certifications li {
+    margin: 10px 0;
+}
+
+/* Contact */
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    color: #f4b400;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+
+.name {
+    color: blue;
+}
+
+.About-Me-Img {
+    height: 20px;
+    width: 20px;
+}
